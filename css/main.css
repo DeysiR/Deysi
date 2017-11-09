@@ -43,7 +43,7 @@ ul.posts li {
 }
 
 
-.hero-image {
+hero-image {
   background-image: url("photographer.jpg");
   height: 50%;
   background-position: center;
@@ -52,7 +52,7 @@ ul.posts li {
   position: relative;
 }
 
-.hero-text {
+hero-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -61,7 +61,7 @@ ul.posts li {
   color: white;
 }
 
-.hero-text button {
+hero-text button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -72,7 +72,7 @@ ul.posts li {
   cursor: pointer;
 }
 
-.hero-text button:hover {
+hero-text button:hover {
   background-color: #555;
   color: white;
 }
