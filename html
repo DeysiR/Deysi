@@ -1,0 +1,115 @@
+<body class="page-template page-template-template-video page-template-template-video-php page page-id-82771 logged-in admin-bar  customize-support" cz-shortcut-listen="true">
+
+
+  <!-- FEATURE VIDEO
+	      ======================= -->
+  <header class="feature-video">
+    <div class="feature-video__wrapper m-auto w-70 text-white">
+      <h1 class="feature-video__title bold text-center pad-b-1">
+              Copycat Lemon &amp; Blueberry Larabar            </h1>
+      <div class="feature-video__iframe">
+        <div class="embed-container">
+          <div class="youtube-player" data-id="tTqwB9jN80k">
+            <div data-id="tTqwB9jN80k"><img src="https://i.ytimg.com/vi/tTqwB9jN80k/hqdefault.jpg">
+              <div class="play"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="lead">
+        This Homemade Larabar Copycat Recipe makes for a healthy, easy snack packed with blueberries, lemon, and raw cashews. </p>
+
+    </div>
+    <!-- .feature-video__wrapper -->
+  </header>
+  <!-- header -->
+
+
+  <!-- MAIN CONTENT
+	      ======================= -->
+  <article id="" class="container-fluid article-wrapper" role="main">
+    <div class="light-bg">
+
+      <!-- SIDEBAR
+              ================ -->
+      <div class="video-sidebar white-bg m-0 pad-l-sm">
+        <!-- Dynamic YouTube Search -->
+        <div class="video-sidebar__search">
+          <h4>SEARCH</h4>
+          <form id="search-form" name="search-form">
+            <div class="field-container">
+              <input type="search" id="query" class="search-field no-border b-radius pad-md light-bg" placeholder="Youtube Search">
+              <!--                       <button type="submit" name="search-btn" id="search-btn">GO</button> -->
+            </div>
+          </form>
+          <button id="toggle-video-playlists" class="toggle-video-button">Toggle Categories</button>
+        </div>
+        <!-- Video Categories -->
+        <div class="video-sidebar__categories">
+          <h4>SEARCH BY CATEGORY</h4>
+          <ul class="video-list pad-l-md m-l-3">
+
+            <!-- Video Category Loop -->
+
+            <li class="video-list__item video_item_0" style="color: #76c244" data-channel-id="PLYjmaSDaONaZJmkQer1XQQJYrAn1g5F9H">
+              <span class="uppercase text-bold">
+                                Food                              </span>
+            </li>
+
+
+            <li class="video-list__item video_item_1" style="color: #ff784f" data-channel-id="PLYjmaSDaONaYW38Is4Oq4DLrdY0kQbpuC">
+              <span class="uppercase text-bold">
+                                Fitness                              </span>
+            </li>
+
+
+            <li class="video-list__item video_item_2" style="color: #9471e3" data-channel-id="PLYjmaSDaONaaQqVo0fa3MhdxJfq_kW5Us">
+              <span class="uppercase text-bold">
+                                LIVE w/ KELSEY                              </span>
+            </li>
+
+
+            <li class="video-list__item video_item_3" style="color: #fca63d" data-channel-id="PLYjmaSDaONaZPKqGnSuBZ5Oe-C9Qg1mAR">
+              <span class="uppercase text-bold">
+                                LIVE w/ PETE                              </span>
+            </li>
+
+
+            <li class="video-list__item video_item_4" style="color: #4098d6" data-channel-id="PLYjmaSDaONaaoLZh0zkv6n4BFlRTxeMIx">
+              <span class="uppercase text-bold">
+                                LIVE                              </span>
+            </li>
+
+
+            <li class="video-list__item video_item_5" style="color: #4b5c6b" data-channel-id="PLYjmaSDaONaZoAL55THA058qtDl1WEPUw">
+              <span class="uppercase text-bold">
+                                LIVE w/ AIMEE                              </span>
+            </li>
+
+
+            <li class="video-list__item video_item_6" style="color: ##4b5c6b" data-channel-id="PLYjmaSDaONaYjDwr0wLZ62L6_6Sq8-3yc">
+              <span class="uppercase text-bold">
+                                LIVE w/ ZOE                              </span>
+            </li>
+
+
+            <li class="video-list__item video_item_7" style="color: #aeaeae" data-channel-id="PLYjmaSDaONaaj3BCttkhnX0PYhTYylFc9">
+              <span class="uppercase text-bold">
+                                PaleoHacks Podcast                              </span>
+            </li>
+
+
+          </ul>
+          <!-- .video-list -->
+        </div>
+        <!-- .video-sidebar__categories -->
+      </div>
+      <!-- .video-sidebar -->
+
+      <!-- 
+                  Videos will be looped over making an ajax GET request to YT API:
+                  ===============================================================
+                  - In Redux Settings each Category will include the Channel Id.
+                  - The Channel Id is used to fetch the videos.
+              -->
